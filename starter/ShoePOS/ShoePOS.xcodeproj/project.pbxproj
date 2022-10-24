@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461B29D22905DD6600639B98 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B29D02905DD6600639B98 /* Font+Extension.swift */; };
+		461B29D32905DD6600639B98 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B29D12905DD6600639B98 /* CustomFont.swift */; };
+		461B29D52905DFAF00639B98 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461B29D42905DFAF00639B98 /* Theme.xcassets */; };
+		4627175929073E4400C451BB /* EdgeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627175829073E4400C451BB /* EdgeBorder.swift */; };
+		4658166D25524C94004477D3 /* ProductsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658166C25524C94004477D3 /* ProductsHeaderView.swift */; };
+		4658167025524CC5004477D3 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658166F25524CC5004477D3 /* ProductsView.swift */; };
+		4658167325524CE8004477D3 /* CartHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167225524CE8004477D3 /* CartHeaderView.swift */; };
+		4658167625524D08004477D3 /* CartTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167525524D08004477D3 /* CartTotalView.swift */; };
+		4658167925524D31004477D3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167825524D31004477D3 /* CartView.swift */; };
+		4658167C25524D88004477D3 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658167B25524D88004477D3 /* ProductItemView.swift */; };
+		4658168625524EB2004477D3 /* ProductsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168525524EB2004477D3 /* ProductsGridView.swift */; };
+		4658168925524F01004477D3 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168825524F01004477D3 /* StepperView.swift */; };
+		4658168C25524F3A004477D3 /* ShoePOSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168B25524F3A004477D3 /* ShoePOSButton.swift */; };
+		4658168F25524FAE004477D3 /* SizeCartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658168E25524FAE004477D3 /* SizeCartItemView.swift */; };
+		465816922552503F004477D3 /* CartItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465816912552503F004477D3 /* CartItemView.swift */; };
+		465816952552506F004477D3 /* CartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465816942552506F004477D3 /* CartContentView.swift */; };
+		467807EE2565AC8B000956C0 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467807ED2565AC8B000956C0 /* ProductDetail.swift */; };
+		46F62E7424E0A53A00DF816B /* ShoePOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62E7324E0A53A00DF816B /* ShoePOSApp.swift */; };
+		46F62E7624E0A53A00DF816B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62E7524E0A53A00DF816B /* ContentView.swift */; };
+		46F62E7824E0A53B00DF816B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F62E7724E0A53B00DF816B /* Assets.xcassets */; };
+		46F62E7B24E0A53B00DF816B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F62E7A24E0A53B00DF816B /* Preview Assets.xcassets */; };
+		46F62EC324E0A71200DF816B /* Palette+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62EB824E0A71200DF816B /* Palette+Color.swift */; };
+		46F62EC524E0A71200DF816B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F62EBA24E0A71200DF816B /* View+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		461B29D02905DD6600639B98 /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		461B29D12905DD6600639B98 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		461B29D42905DFAF00639B98 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		4627175829073E4400C451BB /* EdgeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorder.swift; sourceTree = "<group>"; };
+		4658166C25524C94004477D3 /* ProductsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsHeaderView.swift; sourceTree = "<group>"; };
+		4658166F25524CC5004477D3 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		4658167225524CE8004477D3 /* CartHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartHeaderView.swift; sourceTree = "<group>"; };
+		4658167525524D08004477D3 /* CartTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTotalView.swift; sourceTree = "<group>"; };
+		4658167825524D31004477D3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		4658167B25524D88004477D3 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		4658168525524EB2004477D3 /* ProductsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsGridView.swift; sourceTree = "<group>"; };
+		4658168825524F01004477D3 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		4658168B25524F3A004477D3 /* ShoePOSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePOSButton.swift; sourceTree = "<group>"; };
+		4658168E25524FAE004477D3 /* SizeCartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeCartItemView.swift; sourceTree = "<group>"; };
+		465816912552503F004477D3 /* CartItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemView.swift; sourceTree = "<group>"; };
+		465816942552506F004477D3 /* CartContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartContentView.swift; sourceTree = "<group>"; };
+		467807ED2565AC8B000956C0 /* ProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		46F62E7024E0A53A00DF816B /* ShoePOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoePOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F62E7324E0A53A00DF816B /* ShoePOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoePOSApp.swift; sourceTree = "<group>"; };
+		46F62E7524E0A53A00DF816B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		46F62E7724E0A53B00DF816B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F62E7A24E0A53B00DF816B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46F62E7C24E0A53B00DF816B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F62EB824E0A71200DF816B /* Palette+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Palette+Color.swift"; sourceTree = "<group>"; };
+		46F62EBA24E0A71200DF816B /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F62E6D24E0A53A00DF816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462716F8290659D700C451BB /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				4658168E25524FAE004477D3 /* SizeCartItemView.swift */,
+				467807ED2565AC8B000956C0 /* ProductDetail.swift */,
+				4658168525524EB2004477D3 /* ProductsGridView.swift */,
+				4658167B25524D88004477D3 /* ProductItemView.swift */,
+				4658166C25524C94004477D3 /* ProductsHeaderView.swift */,
+				4658168825524F01004477D3 /* StepperView.swift */,
+				4658168B25524F3A004477D3 /* ShoePOSButton.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		462716F929065A9700C451BB /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				4658167225524CE8004477D3 /* CartHeaderView.swift */,
+				4658167525524D08004477D3 /* CartTotalView.swift */,
+				465816912552503F004477D3 /* CartItemView.swift */,
+				465816942552506F004477D3 /* CartContentView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		46ACC9FB2553AC56007C32CE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		46F62E6724E0A53A00DF816B = {
+			isa = PBXGroup;
+			children = (
+				46F62E7224E0A53A00DF816B /* ShoePOS */,
+				46F62E7124E0A53A00DF816B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F62E7124E0A53A00DF816B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F62E7024E0A53A00DF816B /* ShoePOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F62E7224E0A53A00DF816B /* ShoePOS */ = {
+			isa = PBXGroup;
+			children = (
+				46ACC9FB2553AC56007C32CE /* Assets */,
+				46F62EAD24E0A71200DF816B /* Utilities */,
+				46F62EAA24E0A62F00DF816B /* Application */,
+				46F62EAB24E0A63600DF816B /* Views */,
+				46F62E7C24E0A53B00DF816B /* Info.plist */,
+				46F62E7924E0A53B00DF816B /* Preview Content */,
+			);
+			path = ShoePOS;
+			sourceTree = "<group>";
+		};
+		46F62E7924E0A53B00DF816B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				46F62E7A24E0A53B00DF816B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46F62EAA24E0A62F00DF816B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				46F62E7324E0A53A00DF816B /* ShoePOSApp.swift */,
+				46F62E7724E0A53B00DF816B /* Assets.xcassets */,
+				461B29D42905DFAF00639B98 /* Theme.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		46F62EAB24E0A63600DF816B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EAC24E0A67E00DF816B /* Supporting Views */,
+				46F62E7524E0A53A00DF816B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46F62EAC24E0A67E00DF816B /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EC724E0A7C900DF816B /* Products */,
+				46F62EC624E0A7C400DF816B /* Cart */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		46F62EAD24E0A71200DF816B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				46F62EB824E0A71200DF816B /* Palette+Color.swift */,
+				461B29D12905DD6600639B98 /* CustomFont.swift */,
+				461B29D02905DD6600639B98 /* Font+Extension.swift */,
+				46F62EBA24E0A71200DF816B /* View+Extension.swift */,
+				4627175829073E4400C451BB /* EdgeBorder.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		46F62EC624E0A7C400DF816B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				462716F929065A9700C451BB /* Supporting Views */,
+				4658167825524D31004477D3 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		46F62EC724E0A7C900DF816B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462716F8290659D700C451BB /* Supporting Views */,
+				4658166F25524CC5004477D3 /* ProductsView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F62E6F24E0A53A00DF816B /* ShoePOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F62E7F24E0A53B00DF816B /* Build configuration list for PBXNativeTarget "ShoePOS" */;
+			buildPhases = (
+				46F62E6C24E0A53A00DF816B /* Sources */,
+				46F62E6D24E0A53A00DF816B /* Frameworks */,
+				46F62E6E24E0A53A00DF816B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoePOS;
+			productName = ShoePOS;
+			productReference = 46F62E7024E0A53A00DF816B /* ShoePOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F62E6824E0A53A00DF816B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					46F62E6F24E0A53A00DF816B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 46F62E6B24E0A53A00DF816B /* Build configuration list for PBXProject "ShoePOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F62E6724E0A53A00DF816B;
+			productRefGroup = 46F62E7124E0A53A00DF816B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F62E6F24E0A53A00DF816B /* ShoePOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F62E6E24E0A53A00DF816B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B29D52905DFAF00639B98 /* Theme.xcassets in Resources */,
+				46F62E7B24E0A53B00DF816B /* Preview Assets.xcassets in Resources */,
+				46F62E7824E0A53B00DF816B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F62E6C24E0A53A00DF816B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F62EC324E0A71200DF816B /* Palette+Color.swift in Sources */,
+				4658168F25524FAE004477D3 /* SizeCartItemView.swift in Sources */,
+				4658167925524D31004477D3 /* CartView.swift in Sources */,
+				4658168C25524F3A004477D3 /* ShoePOSButton.swift in Sources */,
+				461B29D32905DD6600639B98 /* CustomFont.swift in Sources */,
+				4658167C25524D88004477D3 /* ProductItemView.swift in Sources */,
+				4658167025524CC5004477D3 /* ProductsView.swift in Sources */,
+				4658166D25524C94004477D3 /* ProductsHeaderView.swift in Sources */,
+				4658167625524D08004477D3 /* CartTotalView.swift in Sources */,
+				4658168925524F01004477D3 /* StepperView.swift in Sources */,
+				46F62E7624E0A53A00DF816B /* ContentView.swift in Sources */,
+				46F62EC524E0A71200DF816B /* View+Extension.swift in Sources */,
+				4658168625524EB2004477D3 /* ProductsGridView.swift in Sources */,
+				465816952552506F004477D3 /* CartContentView.swift in Sources */,
+				4627175929073E4400C451BB /* EdgeBorder.swift in Sources */,
+				467807EE2565AC8B000956C0 /* ProductDetail.swift in Sources */,
+				461B29D22905DD6600639B98 /* Font+Extension.swift in Sources */,
+				46F62E7424E0A53A00DF816B /* ShoePOSApp.swift in Sources */,
+				4658167325524CE8004477D3 /* CartHeaderView.swift in Sources */,
+				465816922552503F004477D3 /* CartItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46F62E7D24E0A53B00DF816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46F62E7E24E0A53B00DF816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F62E8024E0A53B00DF816B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoePOS/Preview Content\"";
+				DEVELOPMENT_TEAM = BCKVL9BZPW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShoePOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.cocoa.ShoePOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		46F62E8124E0A53B00DF816B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoePOS/Preview Content\"";
+				DEVELOPMENT_TEAM = BCKVL9BZPW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ShoePOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = academy.cocoa.ShoePOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F62E6B24E0A53A00DF816B /* Build configuration list for PBXProject "ShoePOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F62E7D24E0A53B00DF816B /* Debug */,
+				46F62E7E24E0A53B00DF816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F62E7F24E0A53B00DF816B /* Build configuration list for PBXNativeTarget "ShoePOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F62E8024E0A53B00DF816B /* Debug */,
+				46F62E8124E0A53B00DF816B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F62E6824E0A53A00DF816B /* Project object */;
+}
